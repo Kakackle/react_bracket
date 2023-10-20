@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  text-align: center;
+}
+
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  gap: 20px;
+}
+
+.pair{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pair-name{
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 8px 20px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.columns{
+  display: flex;
+  gap: 20px;
+}
